@@ -301,13 +301,13 @@
       bx-overflow-menu a:active { text-decoration: none !important; }
 
       .nsHeadLogo{
-        background-image: url("/src/favicon.svg");
+        background-image: url("../src/favicon.svg");
         min-width: 28px;
         min-height: 28px;
         background-size: cover;
       }
       .nsHeadLogo:hover, .nsHeadLogo:active{
-        background-image: url("/src/favicon.svg");
+        background-image: url("../src/favicon.svg");
       }
       .avatar{
         margin-right: 20px;
@@ -452,7 +452,7 @@
       </div>
       <div class="bx--col">
         <div id="insights">
-          <img src="/src/favicon.svg" style="width: 70%;">
+          <img src="../src/favicon.svg" style="width: 70%;">
         </div>
       </div>
     </div>
@@ -564,7 +564,7 @@
       $("#botmsg" + botmsg).html("<bx-inline-loading>Generating an Answer... </bx-inline-loading>");
     }, "2000");
 
-    $("#insights").html(`<div><img src="/src/favicon.svg" style="width: 70%;"></div>`);
+    $("#insights").html(`<div><img src="../src/favicon.svg" style="width: 70%;"></div>`);
 
     var options = {
       returnVariables: true,
