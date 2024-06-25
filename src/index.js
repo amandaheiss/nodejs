@@ -2,6 +2,12 @@ const express = require('express');
 const path = require('path');
 const app = express();
 
+
+import '@carbon/web-components/es/components/header/index.js';
+import '@carbon/web-components/es/components/button/index.js';
+import '@carbon/web-components/es/components/search/index.js';
+
+
 // Use the PORT environment variable provided by the environment (e.g., IBM Code Engine)
 const port = process.env.PORT || 8080;
 
